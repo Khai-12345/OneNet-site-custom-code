@@ -1,0 +1,17 @@
+.site-estimator-item-cms-list {
+  opacity: 0;
+}
+.site-estimator-item-cms-list.collapsed {
+  position: absolute;
+  opacity: 0;
+  pointer-events: none;
+}
+.se-value-storage {
+  display: none;
+}
+.flickity-viewport {
+  height: 70vh !important;
+  max-height: 32rem;
+  width: 100%;
+  overflow: visible !important;
+}

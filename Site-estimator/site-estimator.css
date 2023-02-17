@@ -1,0 +1,34 @@
+.se-hero-container h3,
+.se-hero-container .se-hero-form-block,
+.se-container-header,
+.se-options-main-container,
+.se-options-animation-container,
+.se-options-final-price-contain,
+.learn-more-container,
+.se-24-regular.s-m-t-50 {
+  opacity: 0;
+}
+/* .se-options-final-price-row-line .se-line-inside */
+.se-container-header-underline .se-line-inside {
+  width: 0%;
+  opacity: 0;
+}
+.se-animation-line {
+  width: 0%;
+}
+.se-animation-dot,
+#se-animation-text-all-animated {
+  opacity: 0;
+}
+.se-options-row {
+  transform: translateX(0.65rem);
+  opacity: 0;
+}
+.se-section-connector-plus-icon {
+  border-color: transparent;
+  transform: scale(0, 0);
+  overflow: hidden;
+}
+.se-main-gray-bg {
+  height: 0%;
+}

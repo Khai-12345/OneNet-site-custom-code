@@ -1,0 +1,84 @@
+:root {
+  --main-pupple: #7000ff;
+}
+.popup_item,
+.popup_content,
+.popup_bg {
+  opacity: 0;
+}
+@media only screen and (max-width: 991px) {
+  .cursor_dot-fill {
+    background-color: transparent !important;
+  }
+  .cursor {
+    display: none;
+  }
+  /* .popup .cursor_dot {
+    display: none !important;
+  } */
+}
+@media only screen and (min-width: 992px) {
+  body:hover .cursor {
+    opacity: 1;
+  }
+  .cursor_dot.popup-v {
+    display: none;
+  }
+}
+.popup_item {
+  pointer-events: none;
+}
+.popup_content-contain .rich-text-element a {
+  text-decoration: underline;
+  color: #d1aeff;
+  transition: opacity ease-in-out 0.15s;
+}
+.popup_content-contain .rich-text-element a:hover {
+  opacity: 0.75;
+}
+
+.svg-icon.crew-hero-icon1,
+.svg-icon.crew-hero-icon2 {
+  opacity: 0;
+}
+.svg-icon.crew-hero-icon1 {
+  transform: rotateZ(145deg) scale(0.55);
+}
+.svg-icon.crew-hero-icon2 {
+  transform: rotateZ(-180deg) scale(1.85);
+}
+
+.cursor_dot.show {
+  opacity: 1;
+}
+
+.cursor_dot.small {
+  width: 2em;
+  height: 2em;
+  padding: 0px;
+}
+.cursor_dot.small .cursor_dot-fill {
+  background-color: var(--main-pupple);
+}
+
+.cursor_dot.pressed .cursor_svg {
+  opacity: 0;
+}
+.cursor_dot.hide {
+  transform: scale(0.6);
+  opacity: 0;
+}
+body.no-scroll {
+  overflow: hidden;
+  cursor: pointer;
+}
+
+body.popup-open .cursor_svg {
+  transform: scale(1, 1);
+}
+body.popup-open {
+  cursor: none;
+}
+body.popup-open.no-cursor-close .cursor_svg {
+  transform: scale(0, 0);
+}

@@ -1,0 +1,19 @@
+.svg-icon.news-hero-icon {
+  opacity: 0;
+}
+/* [category="project-launch-news"] a:hover {
+  border-color: rgba(229, 255, 128, 0.3) !important;
+}
+[category="media-hits-news"] a:hover {
+  border-color: rgba(209, 174, 255, 0.3) !important;
+} */
+
+.regular-news-regular svg,
+.featured-news-featured svg {
+  transition: transform 200ms ease;
+  transform-origin: bottom left;
+}
+.regular-news-regular:hover svg,
+.featured-news-featured:hover svg {
+  transform: scale(1.15);
+}

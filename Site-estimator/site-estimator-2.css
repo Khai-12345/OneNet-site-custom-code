@@ -1,0 +1,48 @@
+.se-hero-div,
+.se-big-card,
+.se-32-medium.top-heading,
+.se-hero-container .se-hero-form-block,
+.se-container-header,
+.se-options-main-container,
+.se-options-animation-container,
+.se-options-final-price-contain,
+.learn-more-container,
+.se-24-regular.s-m-t-50 {
+  opacity: 0;
+}
+/* .se-big-card > .se-options-border-contain .se-options-border._1 {
+  width: 0%;
+  opacity: 0;
+}
+
+.se-big-card > .se-options-border-contain .se-options-border._3 {
+  width: 0%;
+}
+.se-big-card > .se-options-border-contain .se-options-border._2,
+.se-big-card > .se-options-border-contain .se-options-border._4 {
+  height: 0%;
+} */
+/* .se-options-final-price-row-line .se-line-inside */
+.se-container-header-underline .se-line-inside {
+  width: 0%;
+  opacity: 0;
+}
+.se-animation-line {
+  width: 0%;
+}
+.se-animation-dot,
+#se-animation-text-all-animated {
+  opacity: 0;
+}
+.se-options-row {
+  transform: translateX(0.65rem);
+  opacity: 0;
+}
+.se-section-connector-plus-icon {
+  border-color: transparent;
+  transform: scale(0, 0);
+  overflow: hidden;
+}
+.se-main-gray-bg {
+  height: 0%;
+}

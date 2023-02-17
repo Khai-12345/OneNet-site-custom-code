@@ -1,0 +1,34 @@
+.flickity-viewport {
+  height: 70vh !important;
+  max-height: 32rem;
+  width: 100%;
+  overflow: visible !important;
+}
+.svg-icon.capabilities-hero-icon {
+  opacity: 0;
+}
+.svg-icon.capabilities-hero-icon._1 {
+  transform: translateY(-0.5rem) scale(0.95);
+}
+.svg-icon.capabilities-hero-icon._2 {
+  transform: translateY(0.5rem) scale(0.95);
+}
+.capabilities-service-header h2 {
+  transition: all 0.75s ease;
+  overflow: hidden;
+}
+@media only screen and (max-width: 991px) {
+  .capabilities-service-header.is-pinned h2 {
+    max-height: 0rem;
+    margin-bottom: 0rem;
+  }
+}
+.link-button.agreeable-pink-outline {
+  transition: all 200ms ease;
+}
+.link-button.agreeable-pink-outline:hover {
+  background: #ffe0ef;
+}
+.link-button.agreeable-pink-outline:hover p {
+  color: #343434;
+}

@@ -1,0 +1,24 @@
+.flickity-viewport {
+  height: 70vh !important;
+  max-height: 32rem;
+  width: 100%;
+  overflow: visible !important;
+}
+.svg-icon.client-success-hero-icon {
+  opacity: 0;
+}
+.svg-icon.client-success-hero-icon._1 {
+  transform: rotateZ(-30deg) scale(0.55);
+}
+.svg-icon.client-success-hero-icon._2 {
+  transform: rotateZ(30deg) scale(0.6);
+}
+.svg-icon.client-success-hero-icon._3 {
+  transform: rotateZ(30deg) scale(0.65);
+}
+#see-all-capabilities:hover .absolute-background {
+  opacity: 1;
+}
+#link-button-text-white {
+  color: #343434 !important;
+}
